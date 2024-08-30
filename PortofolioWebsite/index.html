@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>EmbracetheUnknown</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="images/video/techvideo.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Embrace the Unknown</h1>
+            <strong>
+                <p class="center">
+                    <q>"Embark on a journey of endless possibilities, where code and creativity converge. As a beginner programmer, I embrace the challenge of learning and growing, fueled by an insatiable curiosity to create.
+                        <br>This portfolio showcases my dedication, a testament to the boundless potential that lies within the realm of programming. With every keystroke, I weave intricate tapestries of logic and functionality, crafting digital experiences that captivate and inspire.
+                        <br>Join me as I navigate the ever-changing landscape of technology, where innovation knows no bounds, and where the power to shape the digital world rests at our fingertips. Together, let's venture into uncharted territories, where imagination becomes reality."
+                    </q>
+                    <br>
+                    <br> My name is Alexandru. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="images/techpict.jpg" alt="Knowledge">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I'm a TeamLead at one of the biggest companies in the World. I'm an AMAZONian! Looking to improve myself and to get out of my comfort zone.
+                    <br>
+                    <br>I'm a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Web Developer Boot Camp. I'm trained in the following web and programming languages: HTML, CSS, JavaScript, Pyton.
+                    <br>
+                    <br> Looking to build trust and create projects to earn significantly more experiences. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p class="center">
+                    You can view my coding projects on my GitHub profile by pressing on GitHub Logo ->>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/Allecsx/HTML-and-CSS-Projects" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+
+    <div class="video-row">
+        <div class="video-container">
+            <video autoplay muted loop id="Typing_Video1">
+                <source src="images/video/techvideo2.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <div class="video-container">
+            <video autoplay muted loop id="Typing_Video1">
+                <source src="images/video/techvideo2.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+    </div>
+
+        <!--Contact section-->
+
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="images/techpict1.jpg" alt="Contact_Image">
+            </div>
+            
+
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="https://formspree.io/f/xjkblpdo" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Embrace Coding Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
